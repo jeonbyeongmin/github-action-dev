@@ -1,3 +1,3 @@
-function create() {
+function create2() {
     return 'create';
 }

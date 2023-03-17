@@ -12,7 +12,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: jeonbyeongmin/ChatGPT-CodeReview@dev
+      - uses: jeonbyeongmin/ChatGPT-CodeReview@test/console
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

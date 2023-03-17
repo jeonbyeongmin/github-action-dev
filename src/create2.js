@@ -1,3 +1,0 @@
-function tesd() {
-    return 'test'
-}
